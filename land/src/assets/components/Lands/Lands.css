@@ -1,0 +1,17 @@
+.lands{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 400px;
+    padding: 20px;
+    margin: 10px;
+}
+.buyland{
+ border: 1px solid white;
+ font-family: 'Times New Roman', Times, serif;
+ margin-top: 10px;
+}
+.puradiv{
+    display: flex;
+}
