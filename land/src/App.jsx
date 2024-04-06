@@ -2,7 +2,8 @@ import { useState,useEffect } from 'react'
 import { ethers } from 'ethers';
 import abi from './assets/contractJson/land.json';
 import AddLand from './assets/components/Addland';
-// import Lands from './assets/components/Lands/Lands';
+import Lands from './assets/components/Lands/Lands';
+import Transaction from './assets/components/Transaction/Transaction';
 
 import './App.css'
 
@@ -48,8 +49,9 @@ function App() {
   return (
     < div className='App'>
           <div className='account'>Account connected: {account}</div> 
-           <AddLand state={state}></AddLand>
+           {/* <AddLand state={state}></AddLand> */}
    {/* <Lands state={state}> </Lands> */}
+   <Transaction state={state}> </Transaction>
      
     </div>
   )
