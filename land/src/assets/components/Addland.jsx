@@ -24,11 +24,11 @@ const AddLand = ({state}) => {
         <a href="#" className="nav-link">About us</a>
         <a href="#" className="nav-link">Contact</a>
       </nav>
-      <a href="#" className="btn btn-primary">Sign Up</a>
+      <a href="/" className="btn btn-primary">Back to Home <i class="fa-solid fa-house"></i> </a>
     </header>
       
         <h2 className='heading'> ADD LAND </h2>
-        <form>
+        <form className='formaddland'>
             <input type='number' className='id' placeholder='ENTER  THE LAND ID'></input>
             <input type='text' className='location' placeholder='LOCATION' ></input>
             <input type='number' className='area' placeholder='AREA'></input>

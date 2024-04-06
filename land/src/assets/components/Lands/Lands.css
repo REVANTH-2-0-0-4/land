@@ -15,3 +15,15 @@
 .puradiv{
     display: flex;
 }
+.backtohome{
+    scale: 2; 
+    color: white;
+    position: relative;
+    left: 800px;
+    bottom: 190px;
+    height: 30px;
+  }
+  .backtohome:hover{
+   color: grey;
+  }
+  

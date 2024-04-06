@@ -1,9 +1,10 @@
 .AddLand{
     display: flex;
+    height: 100vh;
     flex-direction: column;
     row-gap: 10px;
 }
-form{
+.formaddland{
     display: flex;
     flex-direction: column;
     row-gap: 15px;
@@ -11,7 +12,7 @@ form{
     align-items: center;
     color: white;
     position: relative;
-   bottom: 40px;
+   bottom: 80px;
 
   
    
@@ -31,6 +32,8 @@ input{
     font-weight:700px;
     font-size: 100px ;
     font-family:'Times New Roman', Times, serif;
+    position: relative;
+    bottom: 40px;
 }
 .button{
     border: 1px solid white;
@@ -38,4 +41,5 @@ input{
     font-family: 'Times New Roman', Times, serif;
     position: relative;
     top: 40px;
+    
 }

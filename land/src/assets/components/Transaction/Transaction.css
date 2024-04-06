@@ -1,0 +1,11 @@
+.backtohome2{
+font-size: 30px;
+    color: white;
+    position: relative;
+    left: 1200px;
+    bottom: 450px;
+    height: 30px;
+  }
+  .backtohome2:hover{
+   color: grey;
+  }

@@ -68,7 +68,8 @@ const  Lands = ({state}) => {
             <button className='buyland'> BUY LAND</button>
           </div>
       })}
-        
+        <a href="/" className='backtohome'>  BACK TO HOME <i class="fa-solid fa-house"></i> </a>
+
     </div>
   )
 }

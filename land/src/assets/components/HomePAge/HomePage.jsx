@@ -14,10 +14,10 @@ const HomePage = () => {
         
       <nav className="nav">
         <span className="search_icon"> <i class="fa-solid fa-magnifying-glass"></i></span>
-        <a href="#" className="nav-link"> Manage lands</a>
-        <a href="#" className="nav-link">View history</a>
-        <a href="#" className="nav-link">About us</a>
-        <a href="#" className="nav-link">Contact</a>
+        <a href="/AddLand" className="nav-link"> Add Lands</a>
+        <a href="Transaction" className="nav-link">View Transaction history</a>
+        <a href="/buyLand" className="nav-link">BUY LAND</a>
+        <a href="/lands " className="nav-link">Get Lands</a>
       </nav>
       <a href="#" className="btn btn-primary">Sign Up</a>
     </div>
@@ -27,7 +27,7 @@ const HomePage = () => {
                 <div className="one_one">
                     <h2 className="essential">ESSENTIAL FEATURES FOR USER</h2>
                     <p className="description">As a user, easily search for lands and track transactions. Add new entries to the registry hassle-free.</p>
-                    <a href="#" className="btn btn-primary " id="discovermore">DISCOVER MORE</a> 
+                    <a href="Transaction" className="btn btn-primary " id="discovermore">DISCOVER MORE</a> 
                     <img src={img1} alt="Description of the image"  className="image1"/>
                 </div>
                 
