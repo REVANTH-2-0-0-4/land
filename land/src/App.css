@@ -1,11 +1,18 @@
+
+body{
+  overflow-x: hidden;
+ /* min-height: 100vh; */
+}
+
 .account{
   border: 1px solid white;
   padding: 10px;
   border-radius: 20px;
-  width: 98vw;
+  width: 96vw;
   text-align: center;
   font-family: 'Times New Roman', Times, serif;
   font-size: 30px;
+  margin-left: 8px;
  
  }
  .BUY_LAND{

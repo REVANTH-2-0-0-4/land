@@ -1,0 +1,41 @@
+.BuyLand{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: relative;
+   bottom: 40px;
+
+  
+   
+}
+input{
+    border-radius: 20px;
+    height: 30px;
+    width: 400px;
+    border: 1px solid white;
+    text-align: center;
+    padding: 6px;
+    font-family:'Times New Roman', Times, serif ;
+
+}
+.heading{
+    text-align: center;
+    font-weight:700px;
+    font-size: 100px ;
+    font-family:'Times New Roman', Times, serif;
+}
+.button{
+    border: 1px solid white;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    position: relative;
+    top: 40px;
+}

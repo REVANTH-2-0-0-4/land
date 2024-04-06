@@ -14,7 +14,19 @@ const AddLand = ({state}) => {
         alert("LAND ADDED successfully!");
       }
   return (
+    
     <div className='AddLand'>
+          <header className="header">
+      <nav className="nav">
+        <span className="search_icon"> <i class="fa-solid fa-magnifying-glass"></i></span>
+        <a href="#" className="nav-link"> Manage lands</a>
+        <a href="#" className="nav-link">View history</a>
+        <a href="#" className="nav-link">About us</a>
+        <a href="#" className="nav-link">Contact</a>
+      </nav>
+      <a href="#" className="btn btn-primary">Sign Up</a>
+    </header>
+      
         <h2 className='heading'> ADD LAND </h2>
         <form>
             <input type='number' className='id' placeholder='ENTER  THE LAND ID'></input>
