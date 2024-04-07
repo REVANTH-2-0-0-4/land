@@ -73,4 +73,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Demo Video
 
-Check out the demo video of our Land Registry platform on [YouTube]([  ](https://youtu.be/ufbVfnFaURY?feature=shared)).
+Check out the demo video of our Land Registry platform on [YouTube]([ (https://youtu.be/ufbVfnFaURY?feature=shared) ]).
